@@ -83,6 +83,7 @@ The dataset contains 1,122 annotated bounding boxes across four classes.
 - Pillow
 - CUDA (optional, for NVIDIA GPU acceleration)
 
+
 ## 📁 Project Structure
 
 ```text
