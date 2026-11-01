@@ -1,0 +1,16 @@
+
+path: .
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['BLOTCH', 'HEALTHY', 'ROT', 'SCAB']
+
+roboflow:
+  workspace: fruit-disease-detection-nrrei
+  project: apple-fruit-disease-detection-uqrc4
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/fruit-disease-detection-nrrei/apple-fruit-disease-detection-uqrc4/dataset/1

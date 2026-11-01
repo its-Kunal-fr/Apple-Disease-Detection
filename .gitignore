@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Ignore training outputs except the trained model
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/runs/
+runs/detect/runs/*
+!runs/detect/runs/apple_disease/
+runs/detect/runs/apple_disease/*
+!runs/detect/runs/apple_disease/weights/
+runs/detect/runs/apple_disease/weights/*
+!runs/detect/runs/apple_disease/weights/best.pt
